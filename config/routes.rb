@@ -1,5 +1,6 @@
 Wine::Application.routes.draw do
   resources :bottles
+  root :to => "bottles#index" 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
