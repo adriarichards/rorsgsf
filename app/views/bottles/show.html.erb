@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @bottle.name %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @bottle.year %>
+</p>
+
+<p>
+  <b>Photo link:</b>
+  <%= @bottle.photo_link %>
+</p>
+
+
+<%= link_to 'Edit', edit_bottle_path(@bottle) %> |
+<%= link_to 'Back', bottles_path %>
